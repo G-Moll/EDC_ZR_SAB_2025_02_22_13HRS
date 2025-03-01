@@ -1,0 +1,16 @@
+Representacion de un Algoritmo
+(Diagrama de Flujo)
+- Ovalos:
+	Inicio/Fin
+- Trapecios:
+	Datos de entrada
+- Rectangulos:
+	Procesos
+- Rombos:
+	Decisiones
+- Trapecio irregular:
+	Impresion de datos
+
+
+Ver:
+	UML: Unified Model Language

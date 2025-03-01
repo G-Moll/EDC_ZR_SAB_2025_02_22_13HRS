@@ -1,0 +1,5 @@
+Pasos para llevar a un Algoritmo hasta representarlo en Codigo
+1) Proponer una SOLUCION describiendo el PROBLEMA paso por paso
+2) Reflejarlo en un Diagrama de Flujo
+3) Pseudocodigo
+4) Codigo
