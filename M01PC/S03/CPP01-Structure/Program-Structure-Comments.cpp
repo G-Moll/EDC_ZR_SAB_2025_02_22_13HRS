@@ -3,10 +3,11 @@
 // iostream Input/Output Data Streams
 #include <iostream>
 
-// Indicar que modulo (que esta en un espacio de nombre) que va a usar nuestro programa.
+// References some Module (inside a namespace) required for our program.
 using namespace std;
 
-// la funcion principal del programa
+// Main logic function
+// data type
 // main() {}
 // return 0;
 
