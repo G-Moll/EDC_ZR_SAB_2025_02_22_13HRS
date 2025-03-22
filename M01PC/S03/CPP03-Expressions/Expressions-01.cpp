@@ -9,7 +9,7 @@ a++;
 !true;
 
 // Operator
-// Es un símbolo, un caracter 
+// Es un símbolo, un caracter, realizan operaciones
 
 // Operando
 // Es un valor
