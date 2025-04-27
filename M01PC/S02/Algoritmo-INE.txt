@@ -3,23 +3,23 @@ VALIDAR que un USUARIO pueda VOTAR o no en una CASILLA ESPECIFICA.
 
 // DATOS DE ENTRADA
  - Documento INE
-	- Num INE
- 	- INE actualizado
- 	- Seccion del INE corresponda
-	// - Mayor de Edad (18)
+    - Num INE
+    - INE actualizado
+    - Seccion del INE corresponda
+    // - Mayor de Edad (18)
 
 // INICIO
 Entregar el INE
 Buscar la inicial del apellido
 Validar INE
-	Fecha
-	Seccion
-		// OK
-		Rellenamos las papeletas
-		Depositar en las urnas
-		Nos sellan el dedo con tinta indeleble
-		// NO
-		No podemos votar
+    Fecha
+    Seccion
+        // OK
+        Rellenamos las papeletas
+        Depositar en las urnas
+        Nos sellan el dedo con tinta indeleble
+        // NO
+        No podemos votar
 // FIN
 
 

@@ -1,5 +1,5 @@
 Algoritmo:
-	- Son PROCESOS que representan la SOLUCIÓN a un PROBLEMA.
-	- Tienen un principio
-	- Tienen un fin (finitos)
-	- Tienen datos de entrada
+    - Son PROCESOS que representan la SOLUCIÓN a un PROBLEMA.
+    - Tienen un principio
+    - Tienen un fin (finitos)
+    - Tienen datos de entrada

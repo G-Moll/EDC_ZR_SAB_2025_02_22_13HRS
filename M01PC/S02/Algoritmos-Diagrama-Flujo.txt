@@ -1,16 +1,16 @@
 Representacion de un Algoritmo
 (Diagrama de Flujo)
 - Ovalos:
-	Inicio/Fin
+    Inicio/Fin
 - Trapecios:
-	Datos de entrada
+    Datos de entrada
 - Rectangulos:
-	Procesos
+    Procesos
 - Rombos:
-	Decisiones
+    Decisiones
 - Trapecio irregular:
-	Impresion de datos
+    Impresion de datos
 
 
 Ver:
-	UML: Unified Model Language
+    UML: Unified Model Language

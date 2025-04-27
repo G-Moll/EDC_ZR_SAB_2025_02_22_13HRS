@@ -1,0 +1,56 @@
+Web Development
+    - Frontend
+    - Backend
+
+TS
+let name: string = "Joshua";
+let age: int = 10;
+age = "10";
+
+JS
+name = "Joshua";
+var name = "Joshua";
+var age = 10;
+age = "10";
+
+let
+const
+
+GIT
+- - - = - - - = - - = - = + Prod
+              |
+              - - - - = - - = + TC - Stripe
+              |
+              - - - - = - - = + Env - DHL
+
+
+
+Metodologias Agiles
+    Agile
+    Scrum (Sprint)
+
+Waterwall
+
+
+REST API
+CRUD
+   POST
+   GET
+   PUT
+   PATCH
+   DELETE
+CURL
+
+
+
+JS
+    - DOM
+    - Eventos
+    - AJAX/Fetch
+    - OOP *
+
+
+- Tipos de Datos
+- Variables
+- Estructuras de Control
+- Estructuras de Datos
