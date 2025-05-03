@@ -1,0 +1,71 @@
+Frontend
+    HTML: Estructura de una pagina
+    CSS: Apariencia de una pagina
+    JS: Comportamiento de una pagina
+        Angular, Bootstrap, SASS, etc
+
+Backend
+    PHP: Laravel
+    Java: Spring
+    C#: Entity Framework
+    Python: Flask, Django
+    Go: 
+
+
+// Estructura basica codigo HTML
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+    </body>
+</html>
+
+// SGML > XML > HTML5
+// Lenguaje HTML
+// HyperText Markup Language
+Etiquetas (Tags)
+Cualquier palabra que este entre <>
+    - Apertura <>
+    - Cierre   <>/
+
+    - Autocierre <>/ (Self closing tags)
+
+Elementos (Elements)
+    - Es el conjunto de Etiquetas de Apertura y de Cierre
+
+    - E. Padres (Parent)
+        E. que contiene otros elementos
+    - E. Hijos (Child/en)
+        E. que esta contenido en otros elementos
+    - E. Hermanos (Sibling)
+        E. que estan al mismo nivel que otros elementos
+
+    - Atributos (Attributes)
+        Son caracteristicas propias de cada elemento
+        Se muestran en la estiqueta de apertura
+            atributo="valor-atributo"
+            atributo="valor1"
+            atributo
+// Estructura basica pagina HTML
+
+
+
+// Estructura basica codigo CSS
+// CSS: Cascade Style Sheets
+
+/* Regla de estilo */
+// * y p: selectores
+// {}: cuerpo o declaracion
+// propiedad: valores; estilos
+* {
+    color: gray;
+    font-family: Arial;
+}
+
+p {
+    color: green;
+    font-family: Calibri;
+}
+
+
