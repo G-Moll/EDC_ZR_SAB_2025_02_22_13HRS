@@ -1,0 +1,62 @@
+body {
+    background-color: lightcoral;
+}
+
+.wrapper {
+    background-color: lightgray;
+    width: 800px;
+    margin: auto;
+}
+.header {
+    padding: 8px;
+    background-color: lightblue;
+}
+.logo {
+    width: 40px;
+}
+
+.header a {
+    font-family: calibri;
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+}
+.header a:hover {
+    color: cornflowerblue;
+    background-color: white;
+}
+
+.content {
+    padding: 8px;
+    background-color: lightgreen;
+}
+
+.content h1 {
+    font-family: Calibri;
+    color: gray;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.content h2 {
+    font-family: Calibri;
+    color: navy;
+    text-transform: uppercase;
+}
+.content img {
+    width: 380px;
+}
+.content p {
+    font-family: Arial;
+    column-count: 2;
+    text-align: justify;
+}
+
+.footer {
+    padding: 8px;
+    background-color: lightpink;
+}
+.footer p {
+    text-align: center;
+}
