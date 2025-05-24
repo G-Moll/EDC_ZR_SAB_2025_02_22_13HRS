@@ -1,0 +1,38 @@
+.wrapper {
+    width: 800px;
+    margin: auto;
+}
+.header {
+    background-color: lightblue;
+}
+
+.content {
+    background-color: lightcoral;
+}
+.row {
+    background-color: lightseagreen;
+}
+.block {
+    background-color: #ccff00;
+    height: 180px;
+    float: left;
+    margin-bottom: 10px;
+}
+.row-one .block {
+    width: 250px;
+    margin-right: 10px;
+}
+.row-two .block {
+    width: 390px;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: lightgreen;
+}
+
+.cf {
+    clear: both;
+    display: block;
+    position: relative;
+}
