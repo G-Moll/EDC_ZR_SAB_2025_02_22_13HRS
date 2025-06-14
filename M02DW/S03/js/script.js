@@ -6,13 +6,18 @@ xhr.send();
 xhr.addEventListener( "load", loadResponseData );
 
 function loadResponseData( e ) {
+    var htmlContent = "";
     var responseData = JSON.parse( e.target.responseText );
-    console.log( responseData[ 0 ].id );
-    console.log( responseData[ 0 ].name );
-    console.log( responseData[ 0 ].email );
+    for( var i = 0; i < responseData.length; i++ ) {
+        htmlContent +=
+        "<div class=card>" +
+            "<h2>" + responseData[ i ].name + "</h2>" +
+            "<h3>" + responseData[ i ].username +"</h3>" +
+            "<p>" +
+                "<strong>Phone</strong>" +
+                "<span>" + responseData[ i ].phone + "</span>" +
+            "</p>" +
+        "</div>";
+    }
+    content.innerHTML = htmlContent;
 }
-
-content.innerHTML = "<h1>Hello DOM</h1>";
-
-// console.log( endpoint );
-// console.log( content );

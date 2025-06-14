@@ -1,0 +1,20 @@
+* {
+    font-family: Calibri;
+    font-weight: normal;
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+.card {
+    color: lightcoral;
+    border-radius: 8px;
+    padding: 6px;
+    margin: 4px auto;
+    border: 2px solid lightcoral;
+}
+.card:hover {
+    color: white;
+    background-color: lightcoral;
+}
