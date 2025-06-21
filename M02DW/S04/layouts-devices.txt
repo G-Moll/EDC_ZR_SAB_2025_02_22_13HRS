@@ -1,0 +1,17 @@
+Layouts para dispositivos
+    - Desktop
+    - Tablet
+    - Smartphone
+
+    - Responsive Web Design (RWD)
+        a) Un archivo html compartido para todos los dispositivos
+        b) Necesitamos distintos Media Queries para cada dispositivo
+            - Archivos independientes
+            - En un mismo archivos
+        - CSS (Media Queries: @media)
+    - Adaptative Web Design (AWD*)
+        a) Un archivo html y uno css para cada dispositivo
+        - JS (navigator)
+    - Dynamic Loading
+        a) Secciones o bloques pensados para dispositivos especificos
+        - JS

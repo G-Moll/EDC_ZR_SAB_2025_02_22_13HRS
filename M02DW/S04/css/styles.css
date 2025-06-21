@@ -1,0 +1,21 @@
+* {
+    font-weight: normal;
+    font-family: Calibri;
+}
+
+@media only screen and (min-width:900px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+@media only screen and (max-width:899px)  and (min-width:481px) {
+    body {
+        background-color: lightgoldenrodyellow;
+    }
+}
+@media only screen and (max-width:480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
