@@ -7,15 +7,45 @@
     body {
         background-color: lightcoral;
     }
+    p {
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width:899px)  and (min-width:481px) {
     body {
         background-color: lightskyblue;
     }
+    h1 {
+        text-align: right;
+    }
+    h3 {
+        font-size: 1.7em;
+    }
+    p {
+        font-size: 1.4em;
+    }
+    img {
+        width: 60%;
+        float: left;
+        margin-right: 1em;
+    }
 }
 @media only screen and (max-width:480px) {
     body {
         background-color: lightgreen;
+    }
+
+    img {
+        width: 100%;
+    }
+    h1 {
+        text-align: center;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1.6em;
     }
 }
 
