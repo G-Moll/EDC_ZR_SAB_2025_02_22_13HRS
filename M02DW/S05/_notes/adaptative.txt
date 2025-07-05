@@ -1,0 +1,17 @@
+
+                OS
+1)
+    UA "android mobile chrome" > android iphone ipad bb10 , , , , , , , , 
+if() {
+    if(){}
+    else if{}
+    break;
+}
+
+2)
+    Tablet          1) android/s mobile
+                    2) ipad
+
+    Phone           3) iphone
+                    4) android/c mobile
+                    5) bb10

@@ -1,17 +1,18 @@
 var listDevices = [ "android", "iphone", "bb10", "ipad", "tablet" ];
 var description = navigator.userAgent.toLowerCase();
 
-
-// for( var i = 0; i < listDevices.length; i ++ ) {
-//     currentDevice = checkDevice();
-//     console.log( currentDevice );
-//     if( currentDevice == "tablet" ) {
-//         location.href = "http://localhost:3000/tablet.html";
-//     }
-//     else if( currentDevice == "phone" ) {
-//         location.href = "http://localhost:3000/phone.html";
-//     }
-// }
+for( var i = 0; i < listDevices.length; i ++ ) {
+    if( description.indexOf( listDevices[ i ] ) >= 0 ) {
+        currentDevice = checkDevice( listDevices[ i ] );
+        if( currentDevice == "tablet" ) {
+            location.href = "http://localhost:3000/tablet.html";
+        }
+        else if( currentDevice == "phone" ) {
+            location.href = "http://localhost:3000/phone.html";
+        }
+        break;
+    }
+}
 
 function checkDevice( device ) {
     var currentDevice = "";
@@ -26,6 +27,3 @@ function checkDevice( device ) {
     }
     return currentDevice;
 }
-console.log( checkDevice( "ipad" ) );
-console.log( checkDevice( "iphone" ) );
-console.log( checkDevice( "bb10" ) );
