@@ -1,0 +1,26 @@
+TRABAJAR CON MYSQL
+- Arrancar el servidor MySQL (XAMPP)
+- Abrimos una Shell (XAMPP)
+- En el Shell hacer lo siguiente:
+    // Conectar al RDBMS
+    $ mysql -h localhost -u root -p
+    $ mysql -h 127.0.0.1 -u root -p
+    
+    // Mostrar las DBs
+    $ SHOW DATABASES;
+
+    // Escogemos una DB
+    $ USE db_name;
+    $ USE Digistore;
+
+    // Mostrar tablas
+    $ SHOW TABLES;
+
+    // Mostrar estructura de una tabla
+    $ DESCRIBE tb_name;
+    $ DESCRIBE Makers;
+    $ DESCRIBE Products;
+
+    // Consulta de datos de una tabla
+    $ SELECT * FROM Makers;
+    $ SELECT * FROM Products;

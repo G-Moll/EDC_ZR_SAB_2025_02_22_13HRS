@@ -1,0 +1,13 @@
+M03 DBs 30hrs
+    - Diseño DB
+    - Normalización
+    - SQL (Structured Query Language)
+        - Crear la DBs y las Tablas
+        - Trabajar con datos (Consultas/Queries)
+            - CRUD: Create, Read, Update, Delete
+        - Dar o eliminar permisos/usuarios
+    - Triggers
+
+    XAMPP
+        - MySQL (Start, Stop)
+        - CMD/DBeaver/TablePlus/MySQL Workbench

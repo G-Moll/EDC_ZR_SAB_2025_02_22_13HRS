@@ -1,0 +1,22 @@
+CONCEPTOS BASES DE DATOS
+- XAMPP: Paquete de Aplicaciones/Panel de control para servidores
+- MySQL: Servidor (Provee datos) de DBs Relacionales/RDBMS Relational Database Management System
+- SQL: (Structured Query Language/Lenguaje de Consultas Estructuradas) Lenguaje de Consulta de Datos, que tiene distintos Dialectos
+    SQL de MySQL
+    SQL de PostgreSQL
+    SQL de SQLServer
+    SQL de Oracle
+    SQL de SQLite
+- MySQL Workbench/CMD/TablePlus/DBeaver: Cliente SQL(Solicita Datos)
+- Base de Datos: Es un conjunto de elementos que almacenan información a través de distitas herramientas (Tablas, Schemas, Triggers, Stored Procedures)
+- Tabla: Es una estructura que está formada por campos (columnas) y registros (filas)
+
+Español Idioma
+    Dialectos: Es una variante local de un Idioma
+    Esp MX
+    Esp SP
+    Esp AR
+Inglés Idioma
+    Eng EU
+    Eng UK
+    Eng AU

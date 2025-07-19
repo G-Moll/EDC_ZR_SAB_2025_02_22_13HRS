@@ -1,14 +1,19 @@
 
                 OS
-1)
+1) COMPARAR EL AGENTE DE USUARIO DEL DISPOSITIVO VS ALGUNA POSIBLE CONICIDENCIA
     UA "android mobile chrome" > android iphone ipad bb10 , , , , , , , , 
-if() {
-    if(){}
-    else if{}
-    break;
+for( "RECORRE TODO EL ARREGLO DE DISPOSITIVOS" ) {
+    if( "VALIDAR SI HAY CUALQUIER CONINCIDENCIA" ) {
+        if( "VALIDAR SI ES UNA TABLET" ){}
+        else if( "VALIDAR SI ES UN PHONE" ) {}
+        
+        "SI HUBO ALGUNA CONICIDENCIA DETENEMOS EL FOR"
+        break;
+    }
 }
 
-2)
+
+2) VELIDAR SI ES UNA TABLET O UN PHONE
     Tablet          1) android/s mobile
                     2) ipad
 
