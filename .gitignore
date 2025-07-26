@@ -1,5 +1,9 @@
 *.exe
 *.class
+*.bkp
+*.drawio.bkp
 
 */*.exe
 */*.class
+*/*.bkp
+*/*.drawio.bkp

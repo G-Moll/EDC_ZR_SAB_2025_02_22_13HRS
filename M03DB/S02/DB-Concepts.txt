@@ -1,0 +1,10 @@
+Diseño de Bases de Datos
+
+ENTIDADES:
+Entidad: Es un conjunto de datos (atributos) que tienen relación entre sí.
+
+- Modelo Conceptual: Diagramas Modelo Entidad Relación
+- Modelo Lógico: Para entender con más detalle cómo se relacionana las entidades (tablas) PK/FK
+- Modelo Físico: La creación de la DBs (SQL)
+
+
