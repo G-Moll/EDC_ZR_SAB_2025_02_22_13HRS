@@ -6,7 +6,7 @@ Realiza el modelo entidad relación. (valor 6)
 Tenemos esta información sobre una cadena Editorial:
 - DBA Database Administrators
     - La editorial tiene varias SUCURSALES, con su "domicilio", "teléfono" y un "código".
-    - Cada SUCURSAL tiene varios EMPLEADOS, de los cuales tendremos su "nombre", "apellidos", "RFC" y "teléfono". Un empleado trabaja en una única SUCURSAL.
+    - Cada SUCURSAL tiene varios (muchos) EMPLEADOS, de los cuales tendremos su "nombre", "apellidos", "RFC" y "teléfono". Un EMPLEADO trabaja en una única SUCURSAL.
     - En cada SUCURSAL se publican varias REVISTAS, de las que almacenaremos su "título", "número de registro", "periodicidad" y "tipo".
     - Una REVISTA puede ser publicada por varias SUCURSALES.
     - La editorial tiene PERIODISTAS (que no trabajan en las sucursales) que pueden escribir artículos para varias REVISTAS. Almacenaremos los mismos datos que para los empleados, añadiendo su "especialidad".
