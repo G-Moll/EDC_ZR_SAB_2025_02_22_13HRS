@@ -1,0 +1,8 @@
+    8 256     11111111
+    9         111111111111
+    16 512
+    -100 Asus
+    -99 Lenovo
+    1 Asus
+    2 Lenovo
+    Tinyint   -128 127   UNSIGNED 256

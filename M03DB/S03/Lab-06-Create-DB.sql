@@ -58,9 +58,15 @@ FROM
 WHERE
 	id >= 3 AND id <= 7 AND name LIKE "S%"
 ;
+--
 
+
+SELECT * FROM Makers;
 SELECT * FROM Products;
-
+INSERT INTO Products VALUES( NULL, "Hard disk SATA3 1GB", 86.99, 5 );
+INSERT INTO Products VALUES( NULL, "RAM Memory DDR4 8GB", 120, 6 );
+INSERT INTO Products VALUES( NULL, "Drive SSD 1TB", 150.99, 4 );
+INSERT INTO Products VALUES( NULL, "GeForce GTX 1050Ti", 185, 7 );
 
 
 
