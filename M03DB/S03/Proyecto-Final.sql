@@ -1,5 +1,8 @@
 SHOW DATABASES;
 -- DROP DATABASE ecommerce;
+CREATE DATABASE ecommerce;
+USE ecommerce;
+SHOW TABLES;
 
 CREATE TABLE Dealers(
 	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL,
@@ -37,6 +40,10 @@ CREATE TABLE Purchases(
 );
 
 
-
+SHOW TABLES;
+DESCRIBE Dealers;
+DESCRIBE Categories;
+DESCRIBE Pieces;
+DESCRIBE Purchases;
 
 
