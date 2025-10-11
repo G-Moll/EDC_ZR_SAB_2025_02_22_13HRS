@@ -8,7 +8,11 @@
 
 print( """
 0) Salir
-1-12) Mostra mes
+1-12) Muestra mes
+ 1) Ene      2) Feb       3) Mar
+ 4) Abr      5) May       6) Jun
+ 7) Jul      8) Ago       9) Sep
+10) Oct     11) Nov      12) Dic
 """)
 # User      1       2    3      4
 # Python    0       1    2      3
@@ -18,7 +22,12 @@ while True:
     user_option = int( input( "Mostrar mes: " ) )
     print( "Opción: " + str( user_option ) )
 
-    if( user_option < 1 and user_option > len( months ) ):
+            # -1
+            # 1 capturamos
+            # 5
+            # 13
+            # 0                               12
+    if( user_option < 1 or user_option > len( months ) ):
         print( "Opción no válida..." )
         break
     else:
