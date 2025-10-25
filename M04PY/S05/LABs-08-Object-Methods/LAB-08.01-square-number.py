@@ -11,7 +11,9 @@
 squared_numbers = {}
 limit_keys = int( input( "Cuántos cuadrados quieres calcular: " ) )
 
-for n in range( 1, limit_keys + 1 ):
+for n in range( 1, limit_keys + 1 ): # 5 (6): 1 2 3 4 5
     squared_numbers[ str( n ) ] = n * n
+    # squared_numbers[ "1" ] = 1
+    # squared_numbers[ "3" ] = 9
 
 print( squared_numbers )
