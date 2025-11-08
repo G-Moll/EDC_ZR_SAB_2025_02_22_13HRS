@@ -6,22 +6,32 @@ def a():
     print( "This is a basic function..." )
 
 # Call, Invoke, Run, Evaluate, Execute functions
-a()
+# a()
+# a() # 1000
+# a() # otro.py
 
 
 # 2) Parameter & Arguments
-# Function Paremeters
+# Function Parameters
 def sum( numOne, numTwo ):
     print( numOne + numTwo )
 
 # Function Arguments
-sum( 10, 20 )
+x = 10
+# sum( x, 20 )
+# sum( 100, 200 )
+# sum( -100, 300 )
 
 
 
 # 3) Return values
 def sayHello( name ):
+    # "Hello " + name
     return "Hello " + name
 
 message = sayHello( "Joshua" )
+print( message )
+message = sayHello( "Paul" )
+print( message )
+message = sayHello( "Peter" )
 print( message )
