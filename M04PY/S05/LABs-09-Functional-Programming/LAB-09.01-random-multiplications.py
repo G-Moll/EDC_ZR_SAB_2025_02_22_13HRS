@@ -19,11 +19,11 @@ def calculateMultiplication():
     return mult_calc
 
 
-def promptUser():
+def promptUser( fnData ):
     attempt_results = { "right": 0, "wrong": 0, "matches": [] }
 
-    for t in range( 10 ):
-        current_mult = calculateMultiplication()
+    for t in range( 3 ):
+        current_mult = fnData()
         num_one = current_mult[ "num_one" ] # 2 5
         num_two = current_mult[ "num_two" ] # 4 7
         mult_nums = current_mult[ "mult_nums" ] # 8
@@ -42,9 +42,10 @@ def promptUser():
 
 
 def showResults( dataResults ):
-    print( "Respuestas correctas: ", dataResults[ "right" ] )
-    print( "Respuestas incorrectas: ", dataResults[ "wrong" ] )
-    print( "Respuestas individuales" )
+    all_answers = ""
+    all_answers += "Respuestas correctas: " + str( dataResults[ "right" ] )
+    all_answers += "\nRespuestas incorrectas: " + str( dataResults[ "wrong" ] )
+    all_answers += "\nRespuestas individuales"
 
     for m in dataResults[ "matches" ]:
         matched = ""
@@ -52,10 +53,32 @@ def showResults( dataResults ):
             matched = "Sí"
         else:
             matched = "No"
-        display_answer = "\tCorrecta: " + str( m[ "pc" ] ) + ", Usuario: "  + str( m[ "user" ] ) + ", Coinciden: " + matched
-        print( display_answer )
-    # print( dataResults )
+        display_answer = "\n\tCorrecta: " + str( m[ "pc" ] ) + ", Usuario: "  + str( m[ "user" ] ) + ", Coinciden: " + matched
+        all_answers += display_answer
+    
+    return all_answers
 
 
-all_results = promptUser()
-showResults( all_results )
+# all_results = promptUser()
+# whole_message = showResults( all_results )
+# print( whole_message )
+
+print( showResults( promptUser( calculateMultiplication ) ) )
+
+# funciones evaluadas           print()
+# funciones referenciadas       print
+
+# Programación Funcional
+# 1) Cada función se encarga de realizar una tarea concreta
+# 2) Las funciones pueden recibir datos (parámetros), y procesarlos internamente
+    # - No deben tener dependencias externas
+# 3) Las funciones deben de devolver un valor (explícito: return)
+
+# value = 10
+def sample( xyz ):
+    return xyz * 8;
+
+# result = sample()
+# print( result )
+# print( sample( 100 ) )
+

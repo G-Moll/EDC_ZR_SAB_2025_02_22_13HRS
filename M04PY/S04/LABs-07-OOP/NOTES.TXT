@@ -1,7 +1,8 @@
 # Paradigm: Modelos o Formas de Programar
-# OOP: Representar elementos de Codigo como Objetos
-# Functional: Functions
-# Reactive: (PubSub/Observer)
+#   OOP: Representar elementos de Codigo como Objetos
+#   Functional: Functions
+#   Reactive: (PubSub/Observer)
+
 
 
 # Materia:
